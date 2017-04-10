@@ -4,7 +4,12 @@ package aj;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Vector;
+import java.util.function.Predicate;
+
+import org.apache.commons.collections.CollectionUtils;
 
 import com.opencsv.CSVReader;
 
@@ -27,6 +32,11 @@ public class App
         	System.out.println("Nombre dans le list : "+myEntries.size());
         	 for(int i = 0; i < myEntries.size(); i++){
         		System.out.println("Élément à l'index " + i + " = " + myEntries.get(i)[1]);
+        		List<String> list= Arrays.asList(myEntries.get(i));
+        		Vector<String>out=new Vector<String>();
+        		Predicate<Integer> monPredicat  = (s)-> s < 50;
+        		CollectionUtils.select(list, (org.apache.commons.collections.Predicate) monPredicat,out);
+        		System.out.println( "OUT:"+ out);
         		Integer m = new Integer(myEntries.get(i)[1]);
         		monmax = max(monmax,m.intValue());
         		
