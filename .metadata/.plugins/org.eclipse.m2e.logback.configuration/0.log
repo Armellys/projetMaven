@@ -1,0 +1,59 @@
+2017-04-10 15:42:39,302 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: aj:aj:1.0-SNAPSHOT @ /promo2019/ajournee/NewprojetMaven/projetMaven/aj/pom.xml.
+2017-04-10 15:42:39,852 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /aj/src/main/java
+2017-04-10 15:42:39,852 [Worker-0] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /aj/src/test/java
+2017-04-10 15:42:39,956 [Worker-0] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2017-04-10 15:42:40,646 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: aj:aj:1.0-SNAPSHOT @ /promo2019/ajournee/NewprojetMaven/projetMaven/aj/pom.xml.
+2017-04-10 15:42:40,775 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:42:40,776 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:42:40,782 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:42:40,782 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 15:42:41,713 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: aj:aj:1.0-SNAPSHOT @ /promo2019/ajournee/NewprojetMaven/projetMaven/aj/pom.xml.
+2017-04-10 15:42:41,990 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:42:41,990 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:42:41,991 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:42:41,991 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 15:45:15,580 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:45:15,580 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:45:15,582 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:45:15,582 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 15:48:11,356 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:48:11,357 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:48:11,358 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:48:11,359 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 15:51:16,283 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:51:16,284 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:51:16,285 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:51:16,286 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 15:54:46,902 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:54:46,903 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:54:46,904 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:54:46,904 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 15:56:47,528 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:56:47,528 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 15:56:47,530 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 15:56:47,531 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 16:06:37,282 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:06:37,283 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 16:06:37,284 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:06:37,290 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 16:06:53,936 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: aj:aj:1.0-SNAPSHOT @ /promo2019/ajournee/NewprojetMaven/projetMaven/aj/pom.xml.
+2017-04-10 16:06:54,306 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:06:54,306 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 16:06:54,308 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:06:54,308 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 16:06:55,637 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:06:55,638 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 16:06:55,639 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:06:55,639 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 16:10:16,381 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:10:16,382 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 16:10:16,383 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:10:16,383 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 16:12:23,046 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:12:23,046 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 16:12:23,047 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:12:23,048 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
+2017-04-10 16:15:01,605 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:15:01,606 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/main/resources
+2017-04-10 16:15:01,606 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-10 16:15:01,607 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /promo2019/ajournee/NewprojetMaven/projetMaven/aj/src/test/resources
