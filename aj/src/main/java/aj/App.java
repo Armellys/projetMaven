@@ -3,15 +3,16 @@ package aj;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Vector;
-import java.util.function.Predicate;
 
 import org.apache.commons.collections.CollectionUtils;
 
 import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 
 /**
  * Hello world!
@@ -22,25 +23,34 @@ public class App
     public static void main( String[] args )
     {
     	String nom = "adele";
+    	String[] monOut;
+		CSVWriter csvWriter;
         System.out.println( "Hello World! "+nom );
         System.out.println( "Resultat max entre 4 et 5 :  "+ max(4,5) );
         int monmax = 0;
         try {
+        	csvWriter = new CSVWriter(new FileWriter("data-filtered.csv"));
         	CSVReader reader = new CSVReader(new FileReader("data.csv"));
         	List<String[]> myEntries = reader.readAll();
         	reader.close();
         	System.out.println("Nombre dans le list : "+myEntries.size());
         	 for(int i = 0; i < myEntries.size(); i++){
-        		System.out.println("Élément à l'index " + i + " = " + myEntries.get(i)[1]);
+        		System.out.println("Élément à l'index " + i + " = " + myEntries.get(i)[0]);
         		List<String> list= Arrays.asList(myEntries.get(i));
         		Vector<String>out=new Vector<String>();
-        		Predicate<Integer> monPredicat  = (s)-> s < 50;
-        		CollectionUtils.select(list, (org.apache.commons.collections.Predicate) monPredicat,out);
+        		CollectionUtils.select(list,new MonPredicat<String>(),out);
         		System.out.println( "OUT:"+ out);
-        		Integer m = new Integer(myEntries.get(i)[1]);
+        		if (out.toString() != "[]"){
+        		monOut=out.toArray(new String[0]);
+        		csvWriter.writeNext(monOut);
+        		}
+        		Integer m = new Integer(myEntries.get(i)[0]);
         		monmax = max(monmax,m.intValue());
         		
         	}
+        	 reader.close();
+        	 csvWriter.close();
+        	 
 
         	} catch (FileNotFoundException e) {
         			e.printStackTrace();
